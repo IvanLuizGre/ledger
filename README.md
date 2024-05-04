@@ -14,7 +14,7 @@ yarn
 
 bundle exec rails app:update:bin
 
-bin/rails db:create db:migrate db:seed
+
 ```
 
 
@@ -26,7 +26,7 @@ bin/dev
 
 ## Run specs
 
-```sh
+```shbin/rails db:create db:migrate db:seed
 bin/rails db:create db:migrate RAILS_ENV=test
 
 bundle exec rspec

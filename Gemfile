@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'will_paginate', '~> 3.3.0'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
 
@@ -78,3 +80,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "rails_performance", "~> 1.2"
